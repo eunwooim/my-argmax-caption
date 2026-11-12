@@ -1,0 +1,58 @@
+{
+  "models": {
+    "base": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "self": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/out_grpo/adapter",
+    "external": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/out_grpo_external/adapter",
+    "length": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/out_grpo_length/adapter"
+  },
+  "lora_base": null,
+  "groups": {
+    "mcq": {
+      "tasks": [
+        "pope",
+        "mmstar"
+      ],
+      "gen_kwargs": null
+    },
+    "caption": {
+      "tasks": [
+        "coco_cap_chair",
+        "docci_caption"
+      ],
+      "gen_kwargs": "max_new_tokens=128,temperature=0"
+    },
+    "general": {
+      "tasks": [
+        "mmvp",
+        "mmbench_en_dev_static",
+        "mme",
+        "mmvet"
+      ],
+      "gen_kwargs": "temperature=0"
+    },
+    "caption_long": {
+      "tasks": [
+        "captionqa_x_natural",
+        "captionqa_x_document",
+        "captionqa_x_ecommerce",
+        "captionqa_x_embodiedai",
+        "amber_g",
+        "chair500"
+      ],
+      "gen_kwargs": "max_new_tokens=4096,temperature=0"
+    }
+  },
+  "model_args": "min_pixels=3136,max_pixels=802816",
+  "seed": 0,
+  "limit": 4,
+  "prompting": {},
+  "skip_tasks": [],
+  "batch_size": 8,
+  "include_path": "/mnt/data2/mchung45/lmms_eval_work/custom_tasks",
+  "force_simple": true,
+  "lmms_eval_version": {
+    "version": "0.7.4",
+    "commit": null
+  },
+  "created": "2026-11-11 01:05:18"
+}

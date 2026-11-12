@@ -1,0 +1,12 @@
+{
+ "n": 16,
+ "temperature": 0.5,
+ "top_k": 50,
+ "top_p": 1.0,
+ "repetition_penalty": 1.05,
+ "model": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/merged_self",
+ "min_pixels": 3136,
+ "max_pixels": 802816,
+ "seed": 0,
+ "engine": "vllm"
+}

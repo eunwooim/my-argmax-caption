@@ -1,0 +1,136 @@
+{
+  "models": {
+    "base-first-n1": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-jina-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-longclip-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-lpfv-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-random-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-self-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-selfcert-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-shortest-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub"
+  },
+  "lora_base": null,
+  "groups": {
+    "caption_long": {
+      "tasks": [
+        "captionqa_x_natural",
+        "captionqa_x_document",
+        "captionqa_x_ecommerce",
+        "captionqa_x_embodiedai",
+        "amber_g",
+        "chair500"
+      ],
+      "gen_kwargs": "max_new_tokens=4096,temperature=0"
+    }
+  },
+  "model_args": "min_pixels=3136,max_pixels=802816",
+  "seed": 0,
+  "limit": 4,
+  "prompting": {
+    "base-first-n1": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out_quick/base/selected/first_n1.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-jina-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out_quick/base/selected/jina_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-longclip-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out_quick/base/selected/longclip_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-lpfv-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out_quick/base/selected/lpfv_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-random-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out_quick/base/selected/random_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-self-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out_quick/base/selected/self_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-selfcert-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out_quick/base/selected/selfcert_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-shortest-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out_quick/base/selected/shortest_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    }
+  },
+  "skip_tasks": [],
+  "batch_size": 8,
+  "include_path": "/mnt/data2/mchung45/lmms_eval_work/custom_tasks",
+  "force_simple": true,
+  "lmms_eval_version": {
+    "version": "0.7.4",
+    "commit": null
+  },
+  "created": "2026-11-11 00:56:49"
+}

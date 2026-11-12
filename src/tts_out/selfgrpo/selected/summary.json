@@ -1,0 +1,26 @@
+{
+ "self_n2": {
+  "file": "tts_out/selfgrpo/selected/self_n2.jsonl",
+  "items": 2161,
+  "words": 122.85886163813049,
+  "first_pick": 0.5108745950948634
+ },
+ "self_n4": {
+  "file": "tts_out/selfgrpo/selected/self_n4.jsonl",
+  "items": 2161,
+  "words": 120.48264692272096,
+  "first_pick": 0.27117075428042575
+ },
+ "self_n8": {
+  "file": "tts_out/selfgrpo/selected/self_n8.jsonl",
+  "items": 2161,
+  "words": 117.34521055067098,
+  "first_pick": 0.13327163350300786
+ },
+ "self_n16": {
+  "file": "tts_out/selfgrpo/selected/self_n16.jsonl",
+  "items": 2161,
+  "words": 115.57936140675614,
+  "first_pick": 0.06802406293382693
+ }
+}

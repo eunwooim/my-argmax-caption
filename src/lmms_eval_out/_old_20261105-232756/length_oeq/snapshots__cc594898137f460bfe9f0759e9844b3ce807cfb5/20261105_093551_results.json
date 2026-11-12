@@ -1,0 +1,910 @@
+{
+  "results": {
+    "amber_g": {
+      "alias": "amber_g",
+      "amber_chair,none": 3.6919136270441584,
+      "amber_chair_stderr,none": 0.29607775505215683,
+      "amber_chair_stderr_clt,none": "N/A",
+      "amber_chair_stderr_clustered,none": "N/A",
+      "amber_cover,none": 60.42852826533696,
+      "amber_cover_stderr,none": 0.6295068187752928,
+      "amber_cover_stderr_clt,none": "N/A",
+      "amber_cover_stderr_clustered,none": "N/A",
+      "amber_hal,none": 18.109778667547587,
+      "amber_hal_stderr,none": 1.2115181171941798,
+      "amber_hal_stderr_clt,none": "N/A",
+      "amber_hal_stderr_clustered,none": "N/A",
+      "amber_cog,none": 1.4619277466576677,
+      "amber_cog_stderr,none": 0.17324651119645879,
+      "amber_cog_stderr_clt,none": "N/A",
+      "amber_cog_stderr_clustered,none": "N/A"
+    },
+    "captionqa": {
+      " ": " ",
+      "alias": "captionqa"
+    },
+    "captionqa_document": {
+      "alias": " - captionqa_document",
+      "captionqa_score,none": 0.4999,
+      "captionqa_score_stderr,none": "N/A",
+      "captionqa_score_stderr_clt,none": "N/A",
+      "captionqa_score_stderr_clustered,none": "N/A",
+      "captionqa_accuracy,none": 0.3208,
+      "captionqa_accuracy_stderr,none": "N/A",
+      "captionqa_accuracy_stderr_clt,none": "N/A",
+      "captionqa_accuracy_stderr_clustered,none": "N/A",
+      "captionqa_cannot_answer_rate,none": 0.5879,
+      "captionqa_cannot_answer_rate_stderr,none": "N/A",
+      "captionqa_cannot_answer_rate_stderr_clt,none": "N/A",
+      "captionqa_cannot_answer_rate_stderr_clustered,none": "N/A"
+    },
+    "captionqa_ecommerce": {
+      "alias": " - captionqa_ecommerce",
+      "captionqa_score,none": 0.6515,
+      "captionqa_score_stderr,none": "N/A",
+      "captionqa_score_stderr_clt,none": "N/A",
+      "captionqa_score_stderr_clustered,none": "N/A",
+      "captionqa_accuracy,none": 0.531,
+      "captionqa_accuracy_stderr,none": "N/A",
+      "captionqa_accuracy_stderr_clt,none": "N/A",
+      "captionqa_accuracy_stderr_clustered,none": "N/A",
+      "captionqa_cannot_answer_rate,none": 0.3945,
+      "captionqa_cannot_answer_rate_stderr,none": "N/A",
+      "captionqa_cannot_answer_rate_stderr_clt,none": "N/A",
+      "captionqa_cannot_answer_rate_stderr_clustered,none": "N/A"
+    },
+    "captionqa_embodiedai": {
+      "alias": " - captionqa_embodiedai",
+      "captionqa_score,none": 0.6144,
+      "captionqa_score_stderr,none": "N/A",
+      "captionqa_score_stderr_clt,none": "N/A",
+      "captionqa_score_stderr_clustered,none": "N/A",
+      "captionqa_accuracy,none": 0.4841,
+      "captionqa_accuracy_stderr,none": "N/A",
+      "captionqa_accuracy_stderr_clt,none": "N/A",
+      "captionqa_accuracy_stderr_clustered,none": "N/A",
+      "captionqa_cannot_answer_rate,none": 0.4255,
+      "captionqa_cannot_answer_rate_stderr,none": "N/A",
+      "captionqa_cannot_answer_rate_stderr_clt,none": "N/A",
+      "captionqa_cannot_answer_rate_stderr_clustered,none": "N/A"
+    },
+    "captionqa_natural": {
+      "alias": " - captionqa_natural",
+      "captionqa_score,none": 0.6465,
+      "captionqa_score_stderr,none": "N/A",
+      "captionqa_score_stderr_clt,none": "N/A",
+      "captionqa_score_stderr_clustered,none": "N/A",
+      "captionqa_accuracy,none": 0.5462,
+      "captionqa_accuracy_stderr,none": "N/A",
+      "captionqa_accuracy_stderr_clt,none": "N/A",
+      "captionqa_accuracy_stderr_clustered,none": "N/A",
+      "captionqa_cannot_answer_rate,none": 0.3179,
+      "captionqa_cannot_answer_rate_stderr,none": "N/A",
+      "captionqa_cannot_answer_rate_stderr_clt,none": "N/A",
+      "captionqa_cannot_answer_rate_stderr_clustered,none": "N/A"
+    },
+    "coco_cap_chair": {
+      "alias": "coco_cap_chair",
+      "coco_cap_chair_s,none": 23.0,
+      "coco_cap_chair_s_stderr,none": 1.885912572252039,
+      "coco_cap_chair_s_stderr_clt,none": "N/A",
+      "coco_cap_chair_s_stderr_clustered,none": "N/A",
+      "coco_cap_chair_i,none": 7.699443413729128,
+      "coco_cap_chair_i_stderr,none": 0.7278380848693464,
+      "coco_cap_chair_i_stderr_clt,none": "N/A",
+      "coco_cap_chair_i_stderr_clustered,none": "N/A",
+      "coco_cap_recall,none": 63.011972274732194,
+      "coco_cap_recall_stderr,none": 1.299748624752715,
+      "coco_cap_recall_stderr_clt,none": "N/A",
+      "coco_cap_recall_stderr_clustered,none": "N/A"
+    },
+    "detailcaps": {
+      "alias": "detailcaps",
+      "detailcaps_CAPTURE,none": "0.6116582",
+      "detailcaps_CAPTURE_stderr,none": "N/A",
+      "detailcaps_CAPTURE_stderr_clt,none": "N/A",
+      "detailcaps_CAPTURE_stderr_clustered,none": "N/A",
+      "detailcaps_Bleu_4,none": 0.17906847573664775,
+      "detailcaps_Bleu_4_stderr,none": "N/A",
+      "detailcaps_Bleu_4_stderr_clt,none": "N/A",
+      "detailcaps_Bleu_4_stderr_clustered,none": "N/A",
+      "detailcaps_Bleu_3,none": 0.27019117335372084,
+      "detailcaps_Bleu_3_stderr,none": "N/A",
+      "detailcaps_Bleu_3_stderr_clt,none": "N/A",
+      "detailcaps_Bleu_3_stderr_clustered,none": "N/A",
+      "detailcaps_Bleu_2,none": 0.410045063559192,
+      "detailcaps_Bleu_2_stderr,none": "N/A",
+      "detailcaps_Bleu_2_stderr_clt,none": "N/A",
+      "detailcaps_Bleu_2_stderr_clustered,none": "N/A",
+      "detailcaps_Bleu_1,none": 0.6023047832999088,
+      "detailcaps_Bleu_1_stderr,none": "N/A",
+      "detailcaps_Bleu_1_stderr_clt,none": "N/A",
+      "detailcaps_Bleu_1_stderr_clustered,none": "N/A",
+      "detailcaps_METEOR,none": 0.1807823652285258,
+      "detailcaps_METEOR_stderr,none": "N/A",
+      "detailcaps_METEOR_stderr_clt,none": "N/A",
+      "detailcaps_METEOR_stderr_clustered,none": "N/A",
+      "detailcaps_ROUGE_L,none": 0.30361407357119885,
+      "detailcaps_ROUGE_L_stderr,none": "N/A",
+      "detailcaps_ROUGE_L_stderr_clt,none": "N/A",
+      "detailcaps_ROUGE_L_stderr_clustered,none": "N/A",
+      "detailcaps_CIDEr,none": 0.06726747358928456,
+      "detailcaps_CIDEr_stderr,none": "N/A",
+      "detailcaps_CIDEr_stderr_clt,none": "N/A",
+      "detailcaps_CIDEr_stderr_clustered,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "amber_g": [],
+    "captionqa": [
+      "captionqa_natural",
+      "captionqa_document",
+      "captionqa_ecommerce",
+      "captionqa_embodiedai"
+    ],
+    "coco_cap_chair": [],
+    "detailcaps": []
+  },
+  "configs": {
+    "amber_g": {
+      "task": "amber_g",
+      "dataset_path": "Kyunnilee/amber_g",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "train",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function amber_g_doc_to_visual at 0x79901512a660>",
+      "doc_to_text": "<function amber_g_doc_to_text at 0x799015129940>",
+      "doc_to_target": "truth",
+      "stateful": false,
+      "process_results": "<function amber_g_process_result at 0x798ecdf49e40>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "amber_chair",
+          "aggregation": "<function amber_g_aggregate_chair at 0x798ecdf4aac0>",
+          "higher_is_better": false
+        },
+        {
+          "metric": "amber_cover",
+          "aggregation": "<function amber_g_aggregate_cover at 0x798ecdf4b740>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "amber_hal",
+          "aggregation": "<function amber_g_aggregate_hal at 0x798ecdf68400>",
+          "higher_is_better": false
+        },
+        {
+          "metric": "amber_cog",
+          "aggregation": "<function amber_g_aggregate_cog at 0x798ecdf69080>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": []
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": [
+        {
+          "version": 0.0
+        }
+      ],
+      "auto_strip_thinking": false
+    },
+    "captionqa_document": {
+      "task": "captionqa_document",
+      "dataset_path": "Borise/CaptionQA",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "document",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "process_docs": "<function captionqa_process_docs at 0x798ec55ee5c0>",
+      "doc_to_visual": "<function captionqa_doc_to_visual at 0x798ec55ee020>",
+      "doc_to_text": "<function captionqa_doc_to_text at 0x798ec55ef740>",
+      "doc_to_target": "id",
+      "stateful": false,
+      "process_results": "<function captionqa_process_results at 0x798eb4b44860>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "captionqa_score",
+          "aggregation": "<function captionqa_aggregate_score at 0x798eb4b45620>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "captionqa_accuracy",
+          "aggregation": "<function captionqa_aggregate_accuracy at 0x798eb4b463e0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "captionqa_cannot_answer_rate",
+          "aggregation": "<function captionqa_aggregate_cannot_answer at 0x798eb4b471a0>",
+          "higher_is_better": false
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": true,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0,
+        "paper": "https://arxiv.org/abs/2511.21025",
+        "homepage": "https://captionqa.github.io/website",
+        "hf_dataset": "https://huggingface.co/datasets/Borise/CaptionQA",
+        "judge_model": "Qwen/Qwen2.5-72B-Instruct"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "",
+          "caption_prompt": "Describe this image in detail."
+        },
+        "pre_prompt": "",
+        "post_prompt": "",
+        "caption_prompt": "Describe this image in detail."
+      },
+      "auto_strip_thinking": false
+    },
+    "captionqa_ecommerce": {
+      "task": "captionqa_ecommerce",
+      "dataset_path": "Borise/CaptionQA",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "ecommerce",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "process_docs": "<function captionqa_process_docs at 0x798eab9eb7e0>",
+      "doc_to_visual": "<function captionqa_doc_to_visual at 0x798ec55e05e0>",
+      "doc_to_text": "<function captionqa_doc_to_text at 0x798ec55e1300>",
+      "doc_to_target": "id",
+      "stateful": false,
+      "process_results": "<function captionqa_process_results at 0x798ec55e23e0>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "captionqa_score",
+          "aggregation": "<function captionqa_aggregate_score at 0x798ec55e31a0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "captionqa_accuracy",
+          "aggregation": "<function captionqa_aggregate_accuracy at 0x798ec55e3f60>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "captionqa_cannot_answer_rate",
+          "aggregation": "<function captionqa_aggregate_cannot_answer at 0x798ec55ecd60>",
+          "higher_is_better": false
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": true,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0,
+        "paper": "https://arxiv.org/abs/2511.21025",
+        "homepage": "https://captionqa.github.io/website",
+        "hf_dataset": "https://huggingface.co/datasets/Borise/CaptionQA",
+        "judge_model": "Qwen/Qwen2.5-72B-Instruct"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "",
+          "caption_prompt": "Describe this image in detail."
+        },
+        "pre_prompt": "",
+        "post_prompt": "",
+        "caption_prompt": "Describe this image in detail."
+      },
+      "auto_strip_thinking": false
+    },
+    "captionqa_embodiedai": {
+      "task": "captionqa_embodiedai",
+      "dataset_path": "Borise/CaptionQA",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "embodiedai",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "process_docs": "<function captionqa_process_docs at 0x798ecdfdbce0>",
+      "doc_to_visual": "<function captionqa_doc_to_visual at 0x798ecdff8ae0>",
+      "doc_to_text": "<function captionqa_doc_to_text at 0x798ecdff9800>",
+      "doc_to_target": "id",
+      "stateful": false,
+      "process_results": "<function captionqa_process_results at 0x798ecdffa840>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "captionqa_score",
+          "aggregation": "<function captionqa_aggregate_score at 0x798ecdffb600>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "captionqa_accuracy",
+          "aggregation": "<function captionqa_aggregate_accuracy at 0x798ec5514400>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "captionqa_cannot_answer_rate",
+          "aggregation": "<function captionqa_aggregate_cannot_answer at 0x798ec55151c0>",
+          "higher_is_better": false
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": true,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0,
+        "paper": "https://arxiv.org/abs/2511.21025",
+        "homepage": "https://captionqa.github.io/website",
+        "hf_dataset": "https://huggingface.co/datasets/Borise/CaptionQA",
+        "judge_model": "Qwen/Qwen2.5-72B-Instruct"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "",
+          "caption_prompt": "Describe this image in detail."
+        },
+        "pre_prompt": "",
+        "post_prompt": "",
+        "caption_prompt": "Describe this image in detail."
+      },
+      "auto_strip_thinking": false
+    },
+    "captionqa_natural": {
+      "task": "captionqa_natural",
+      "dataset_path": "Borise/CaptionQA",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "natural",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "process_docs": "<function captionqa_process_docs at 0x798eab941ee0>",
+      "doc_to_visual": "<function captionqa_doc_to_visual at 0x798eab9413a0>",
+      "doc_to_text": "<function captionqa_doc_to_text at 0x798eab940180>",
+      "doc_to_target": "id",
+      "stateful": false,
+      "process_results": "<function captionqa_process_results at 0x798eab942fc0>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "captionqa_score",
+          "aggregation": "<function captionqa_aggregate_score at 0x798eab943d80>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "captionqa_accuracy",
+          "aggregation": "<function captionqa_aggregate_accuracy at 0x798eab928b80>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "captionqa_cannot_answer_rate",
+          "aggregation": "<function captionqa_aggregate_cannot_answer at 0x798eab929940>",
+          "higher_is_better": false
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": true,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0,
+        "paper": "https://arxiv.org/abs/2511.21025",
+        "homepage": "https://captionqa.github.io/website",
+        "hf_dataset": "https://huggingface.co/datasets/Borise/CaptionQA",
+        "judge_model": "Qwen/Qwen2.5-72B-Instruct"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "",
+          "caption_prompt": "Describe this image in detail."
+        },
+        "pre_prompt": "",
+        "post_prompt": "",
+        "caption_prompt": "Describe this image in detail."
+      },
+      "auto_strip_thinking": false
+    },
+    "coco_cap_chair": {
+      "task": "coco_cap_chair",
+      "dataset_path": "tsunghanwu/mscoco_chair",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function coco_cap_chair_doc_to_visual at 0x798eab92a660>",
+      "doc_to_text": "<function coco_cap_chair_doc_to_text at 0x798eb4b47f60>",
+      "doc_to_target": "gt_object",
+      "stateful": false,
+      "process_results": "<function coco_cap_chair_process_result at 0x798ff2b14900>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "coco_cap_chair_i",
+          "aggregation": "<function coco_cap_chair_aggregate_results_chair_i at 0x798eab9c0ae0>",
+          "higher_is_better": false
+        },
+        {
+          "metric": "coco_cap_chair_s",
+          "aggregation": "<function coco_cap_chair_aggregate_results_chair_s at 0x798eab9c0360>",
+          "higher_is_better": false
+        },
+        {
+          "metric": "coco_cap_recall",
+          "aggregation": "<function coco_cap_chair_aggregate_results_recall at 0x798eab9c1260>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": []
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": [
+        {
+          "version": 0.0
+        }
+      ],
+      "auto_strip_thinking": false
+    },
+    "detailcaps": {
+      "task": "detailcaps",
+      "dataset_path": "foundation-multimodal-models/DetailCaps-4870",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function detailcaps_doc_to_visual at 0x79998bfcdc60>",
+      "doc_to_text": "<function detailcaps_doc_to_text at 0x79998bfce980>",
+      "doc_to_target": "<function detailcaps_doc_to_target at 0x79998bfcf600>",
+      "stateful": false,
+      "process_results": "<function detailcaps_process_result at 0x79998bffc2c0>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "detailcaps_CAPTURE",
+          "aggregation": "<function detailcaps_capture at 0x79998bffd580>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "detailcaps_Bleu_4",
+          "aggregation": "<function detailcaps_bleu4 at 0x79998bffdc60>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "detailcaps_Bleu_3",
+          "aggregation": "<function detailcaps_bleu3 at 0x79998bffe8e0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "detailcaps_Bleu_2",
+          "aggregation": "<function detailcaps_bleu2 at 0x79998bfff560>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "detailcaps_Bleu_1",
+          "aggregation": "<function detailcaps_bleu1 at 0x79998bf8c220>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "detailcaps_METEOR",
+          "aggregation": "<function detailcaps_meteor at 0x79998bf8cea0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "detailcaps_ROUGE_L",
+          "aggregation": "<function detailcaps_rougel at 0x79998bf8db20>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "detailcaps_CIDEr",
+          "aggregation": "<function detailcaps_cider at 0x79998bf8e7a0>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": [
+        {
+          "version": 0.0
+        }
+      ],
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "prompt": "Describe this image in detail."
+        },
+        "prompt": "Describe this image in detail."
+      },
+      "auto_strip_thinking": false
+    }
+  },
+  "versions": {
+    "amber_g": "Yaml",
+    "captionqa_document": 0.0,
+    "captionqa_ecommerce": 0.0,
+    "captionqa_embodiedai": 0.0,
+    "captionqa_natural": 0.0,
+    "coco_cap_chair": "Yaml",
+    "detailcaps": "Yaml"
+  },
+  "n-shot": {
+    "amber_g": 0,
+    "captionqa_document": 0,
+    "captionqa_ecommerce": 0,
+    "captionqa_embodiedai": 0,
+    "captionqa_natural": 0,
+    "coco_cap_chair": 0,
+    "detailcaps": 0
+  },
+  "higher_is_better": {
+    "amber_g": {
+      "amber_chair": false,
+      "amber_cover": true,
+      "amber_hal": false,
+      "amber_cog": true
+    },
+    "captionqa": {
+      "captionqa_score": true,
+      "captionqa_accuracy": true,
+      "captionqa_cannot_answer_rate": false
+    },
+    "captionqa_document": {
+      "captionqa_score": true,
+      "captionqa_accuracy": true,
+      "captionqa_cannot_answer_rate": false
+    },
+    "captionqa_ecommerce": {
+      "captionqa_score": true,
+      "captionqa_accuracy": true,
+      "captionqa_cannot_answer_rate": false
+    },
+    "captionqa_embodiedai": {
+      "captionqa_score": true,
+      "captionqa_accuracy": true,
+      "captionqa_cannot_answer_rate": false
+    },
+    "captionqa_natural": {
+      "captionqa_score": true,
+      "captionqa_accuracy": true,
+      "captionqa_cannot_answer_rate": false
+    },
+    "coco_cap_chair": {
+      "coco_cap_chair_i": false,
+      "coco_cap_chair_s": false,
+      "coco_cap_recall": true
+    },
+    "detailcaps": {
+      "detailcaps_CAPTURE": true,
+      "detailcaps_Bleu_4": true,
+      "detailcaps_Bleu_3": true,
+      "detailcaps_Bleu_2": true,
+      "detailcaps_Bleu_1": true,
+      "detailcaps_METEOR": true,
+      "detailcaps_ROUGE_L": true,
+      "detailcaps_CIDEr": true
+    }
+  },
+  "n-samples": {
+    "detailcaps": {
+      "original": 4870,
+      "effective": 4870
+    },
+    "coco_cap_chair": {
+      "original": 500,
+      "effective": 500
+    },
+    "captionqa_natural": {
+      "original": 158,
+      "effective": 158
+    },
+    "captionqa_document": {
+      "original": 178,
+      "effective": 178
+    },
+    "captionqa_ecommerce": {
+      "original": 121,
+      "effective": 121
+    },
+    "captionqa_embodiedai": {
+      "original": 200,
+      "effective": 200
+    },
+    "amber_g": {
+      "original": 1004,
+      "effective": 1004
+    }
+  },
+  "config": {
+    "model": "qwen2_5_vl",
+    "model_args": "pretrained=/mnt/data1/eunwooim/lmms_eval_work/hf/models/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5,min_pixels=3136,max_pixels=802816",
+    "model_backend": "lmms_eval.models.simple.qwen2_5_vl.Qwen2_5_VL (simple)",
+    "batch_size": "8",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": "lmms_eval_out/length/oeq/cache",
+    "limit": null,
+    "offset": 0,
+    "bootstrap_iters": 100000,
+    "process_docs_parallel": 4,
+    "gen_kwargs": {
+      "max_new_tokens": 128,
+      "temperature": 0
+    },
+    "random_seed": 0,
+    "numpy_seed": 0,
+    "torch_seed": 0,
+    "fewshot_seed": 0,
+    "resolved_cli_args": {
+      "config": "",
+      "model": "qwen2_5_vl",
+      "tasks": "detailcaps,coco_cap_chair,amber_g,captionqa",
+      "model_args": "pretrained=/mnt/data1/eunwooim/lmms_eval_work/hf/models/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5,min_pixels=3136,max_pixels=802816",
+      "launcher_args": null,
+      "num_fewshot": null,
+      "batch_size": "8",
+      "max_batch_size": null,
+      "device": null,
+      "output_path": "lmms_eval_out/length/oeq",
+      "limit": null,
+      "offset": 0,
+      "use_cache": "lmms_eval_out/length/oeq/cache",
+      "cache_requests": null,
+      "fail_on_error": false,
+      "check_integrity": false,
+      "write_out": false,
+      "log_samples": true,
+      "wandb_log_samples": false,
+      "swanlab_log_samples": false,
+      "log_samples_suffix": "model_outputs",
+      "system_instruction": null,
+      "apply_chat_template": false,
+      "fewshot_as_multiturn": false,
+      "show_config": false,
+      "include_path": "/mnt/data2/minhochung/lmms_eval_work/selfaug_tasks",
+      "gen_kwargs": "max_new_tokens=128,temperature=0",
+      "reasoning_tags": "[[\"<think>\", \"</think>\"], [\"<analysis>\", \"</analysis>\"]]",
+      "verbosity": "INFO",
+      "wandb_args": "",
+      "swanlab_args": "",
+      "timezone": "Asia/Singapore",
+      "hf_hub_log_args": ",output_path=lmms_eval_out/length/oeq,token=[REDACTED]",
+      "predict_only": false,
+      "seed": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "trust_remote_code": false,
+      "process_with_media": false,
+      "process_docs_parallel": 4,
+      "agentic_trace_mode": "basic",
+      "force_simple": true,
+      "tui": false,
+      "repeats": 1,
+      "baseline": null,
+      "max_tokens": null,
+      "power_analysis": false,
+      "effect_size": 0.03,
+      "alpha": 0.05,
+      "power": 0.8,
+      "correlation": 0.5,
+      "std_a": null,
+      "std_b": null
+    }
+  },
+  "git_hash": null,
+  "git_branch": null,
+  "lmms_eval_version": "unknown@unknown",
+  "date": "20261105_093551",
+  "usage": {},
+  "efficiency": {
+    "by_task": {
+      "detailcaps": {
+        "docs": 4870.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "coco_cap_chair": {
+        "docs": 500.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "captionqa_natural": {
+        "docs": 158.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "captionqa_document": {
+        "docs": 178.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "captionqa_ecommerce": {
+        "docs": 121.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "captionqa_embodiedai": {
+        "docs": 200.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "amber_g": {
+        "docs": 1004.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      }
+    },
+    "overall": {
+      "docs": 7031.0,
+      "docs_with_token_counts": 0.0,
+      "total_input_tokens": 0.0,
+      "total_output_tokens": 0.0,
+      "total_tokens": 0.0,
+      "total_correct_score": 0.0,
+      "avg_output_tokens_per_sample": 0.0,
+      "tokens_per_correct_answer": null
+    }
+  },
+  "task_hashes": {
+    "detailcaps": "870540a49ab6499f121115446690a6bb8a5bf1119ebf2bcf79700761b1aef958",
+    "coco_cap_chair": "df32d223209bc9a354c30845254ada0687c9042366aca1d5a155008f074012e0",
+    "captionqa_natural": "5165a43ee42d01038dff19c7c1c4090dd7915493698f3e41256cadec6ba0a982",
+    "captionqa_document": "96be53d004dc178ae6b0e4e1f43b9aefda6fbf2707b2c8e28dee938924757c53",
+    "captionqa_ecommerce": "cf2f3bf6982b511ea094a2f85f08911f620b9647f298fe833dae1b3d3bd5a542",
+    "captionqa_embodiedai": "08664bacaca0d47d340ddefd389de8ed6b8ba69c63b57690535a80bd404e9c5e",
+    "amber_g": "7e1ad538c06092a6256f951254eb979ad37991390141ff9f026489896cb1238b"
+  },
+  "model_source": "qwen2_5_vl",
+  "model_name": "/mnt/data1/eunwooim/lmms_eval_work/hf/models/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+  "model_name_sanitized": "snapshots__cc594898137f460bfe9f0759e9844b3ce807cfb5",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 3563994.174029865,
+  "end_time": 3586158.061656351,
+  "total_evaluation_time_seconds": "22163.887626486365"
+}

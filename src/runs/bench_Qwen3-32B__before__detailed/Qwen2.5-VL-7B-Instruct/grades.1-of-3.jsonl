@@ -1,0 +1,15 @@
+{"qa_id": "test_01763_hal1", "label": "correct", "reason": "The model's answer is correct because the true answer is that the color of the wings is not present in the image.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal2", "label": "wrong", "reason": "The model's answer provides a specific color combination that is not stated in the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg3", "label": "wrong", "reason": "The model's answer provides a specific color description, but the true answer states that the color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal4", "label": "wrong", "reason": "The model's answer 'Brown' does not match the true answer 'black'.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg5", "label": "wrong", "reason": "The model's answer is a similar but not identical color to the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal5", "label": "wrong", "reason": "The model's answer 'Gray' does not match the true answer 'medium-sized' and addresses a different attribute of the brick structure.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg6", "label": "wrong", "reason": "The model's answer specifies a color when the true answer is 'not specified'.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal9", "label": "correct", "reason": "The model's answer is a reasonable interpretation and not the same as the known false answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg0", "label": "wrong", "reason": "The model's answer provides a specific color description, but the true answer states that the color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg1", "label": "correct", "reason": "The model's answer is correct because the true answer is that peacock wings are not present in the image, and the model did not select the known false answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg7", "label": "wrong", "reason": "The model's answer specifies a color, but the true answer states that the color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg8", "label": "wrong", "reason": "The model's answer assumes a detail not specified in the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos0", "label": "correct", "reason": "The model's answer includes an extra detail ('sculpture') but correctly identifies the main object as a peacock.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos2", "label": "correct", "reason": "Artificial grass is a type of green turf.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos5", "label": "wrong", "reason": "The model's answer is different from the true answer and does not match the known false answer.", "model": "Qwen/Qwen3-32B"}

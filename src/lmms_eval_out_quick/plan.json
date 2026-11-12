@@ -1,0 +1,52 @@
+{
+  "models": {
+    "base": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "self": "/mnt/data1/eunwooim/argmax_caption_with_docci_qa/out_grpo/adapter",
+    "external": "/mnt/data1/eunwooim/argmax_caption_with_docci_qa/out_grpo_external/adapter",
+    "length": "/mnt/data1/eunwooim/argmax_caption_with_docci_qa/out_grpo_length/adapter"
+  },
+  "lora_base": null,
+  "groups": {
+    "mcq": {
+      "tasks": [
+        "pope",
+        "mmstar"
+      ],
+      "gen_kwargs": null
+    },
+    "oeq": {
+      "tasks": [
+        "detailcaps",
+        "coco_cap_chair",
+        "amber_g",
+        "captionqa"
+      ],
+      "gen_kwargs": "max_new_tokens=128,temperature=0"
+    },
+    "selfaug": {
+      "tasks": [
+        "mmvp",
+        "mmbench_en_dev_static",
+        "mme",
+        "pope_aokvqa_random",
+        "pope_aokvqa_popular",
+        "pope_aokvqa_adversarial",
+        "llava_in_the_wild",
+        "mmvet",
+        "mmhal_bench"
+      ],
+      "gen_kwargs": "temperature=0"
+    }
+  },
+  "model_args": "min_pixels=3136,max_pixels=802816",
+  "seed": 0,
+  "limit": 4,
+  "batch_size": 1,
+  "include_path": "/mnt/data2/minhochung/lmms_eval_work/selfaug_tasks",
+  "force_simple": true,
+  "lmms_eval_version": {
+    "version": "0.7.4",
+    "commit": null
+  },
+  "created": "2026-11-02 10:35:14"
+}

@@ -1,0 +1,9 @@
+{"qa_id": "test_01895_hal0", "label": "correct", "reason": "The model's answer correctly states that the color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_hal2", "label": "wrong", "reason": "The model's answer 'Not specified' is not the same as the true answer 'white'.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_hal3", "label": "wrong", "reason": "The model's answer does not match the true answer or the known false answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_neg0", "label": "correct", "reason": "The model's answer correctly states that the color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_neg2", "label": "correct", "reason": "The model's answer indicates that the color is not specified, which aligns with the true answer since it does not contradict it or support the false claim.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_neg3", "label": "correct", "reason": "The model's answer correctly states that the color of the red building is red.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_pos0", "label": "correct", "reason": "A wall is part of a brick building, so the answer is correct.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_pos1", "label": "correct", "reason": "The model's answer conveys the same meaning as the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_pos3", "label": "correct", "reason": "The model's answer matches the true answer.", "model": "Qwen/Qwen3-32B"}

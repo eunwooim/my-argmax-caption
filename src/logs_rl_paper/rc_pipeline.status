@@ -1,0 +1,71 @@
+2026-11-11 01:17:16  pipeline started (pid 2320680); GPU free = at most 80000 MiB used and 60% busy, GPUs 4-7
+2026-11-11 01:17:16  setup: started
+2026-11-11 01:17:45  setup: done (0 min)
+2026-11-11 01:17:45  dump: started
+2026-11-11 01:17:45  quick: started
+2026-11-11 01:19:30  dump: done (1 min)
+2026-11-11 01:25:27  quick: done (7 min)
+2026-11-11 01:25:27  quick: passed; its report: tts_out_quick/reward_comparison.md
+2026-11-11 01:25:27  train: started
+2026-11-11 01:29:27  eval_old: started
+2026-11-11 01:33:27  sample_base: started
+2026-11-11 01:37:27  merge_self: started
+2026-11-11 01:41:27  selfval_rerun: started
+2026-11-11 01:42:55  sample_base: FAILED (exit 143 after 9 min; see logs_rl_paper/rc_sample_base.log)
+2026-11-11 01:42:59  sample_base: started (rc_track_tts.sh)
+2026-11-11 01:43:37  sample_base: started (rc_track_tts.sh)
+2026-11-11 02:08:03  sample_base: done (24 min)
+2026-11-11 02:08:03  score_base: started (rc_track_tts.sh)
+2026-11-11 02:11:26  merge_self: done (33 min)
+2026-11-11 02:11:26  sample_self: started
+2026-11-11 02:44:25  selfval_rerun: FAILED (exit 143 after 62 min; see logs_rl_paper/rc_selfval_rerun.log)
+2026-11-11 02:44:25  sample_self: FAILED (exit 143 after 32 min; see logs_rl_paper/rc_sample_self.log)
+2026-11-11 02:44:30  sample_self: started (rc_track.sh)
+2026-11-11 02:44:32  selfval_rerun: started (rc_track.sh)
+2026-11-11 03:08:32  sample_self: FAILED (exit 1 after 24 min; see logs_rl_paper/rc_sample_self.log)
+2026-11-11 03:42:09  eval_old: done (132 min)
+2026-11-11 03:44:06  sample_self: started (rc_track.sh)
+2026-11-11 03:53:26  sample_self: done (9 min)
+2026-11-11 03:53:26  score_self: started (rc_track.sh)
+2026-11-11 04:02:50  score_base: FAILED (exit 1 after 114 min; see logs_rl_paper/rc_score_base.log)
+2026-11-11 04:05:03  sample_base: started (rc_track_tts.sh)
+2026-11-11 04:05:03  sample_base: done (0 min)
+2026-11-11 04:05:03  score_base: started (rc_track_tts.sh)
+2026-11-11 04:18:18  score_self: done (24 min)
+2026-11-11 04:18:18  select_self: started (rc_track.sh)
+2026-11-11 04:18:19  select_self: done (0 min)
+2026-11-11 04:18:19  track comb (rc_track.sh): finished
+2026-11-11 04:25:39  train: FAILED (exit 1 after 180 min; see logs_rl_paper/rc_train.log)
+2026-11-11 04:25:39  track train: FAILED (its last step's log has the error)
+2026-11-11 04:25:39  track eval: finished
+2026-11-11 04:25:39  track tts: FAILED (its last step's log has the error)
+2026-11-11 04:25:39  track comb: FAILED (its last step's log has the error)
+2026-11-11 04:25:39  track selfval: FAILED (its last step's log has the error)
+2026-11-11 04:25:39  replay_all: started
+2026-11-11 04:27:16  finish: started (pid 3407233)
+2026-11-11 04:27:16  vqa_new: started (rc_finish.sh)
+2026-11-11 04:27:16  eval_new: started (rc_finish.sh)
+2026-11-11 05:18:05  score_base: done (73 min)
+2026-11-11 05:18:05  select_base: started (rc_track_tts.sh)
+2026-11-11 05:18:12  select_base: done (0 min)
+2026-11-11 05:18:12  vqa_old: started (rc_track_tts.sh)
+2026-11-11 05:33:23  vqa_new: FAILED (exit 1 after 66 min; see logs_rl_paper/rc_vqa_new.log)
+2026-11-11 05:50:27  eval_new: done (83 min)
+2026-11-11 06:10:47  vqa_old: FAILED (exit 1 after 52 min; see logs_rl_paper/rc_vqa_old.log)
+2026-11-11 06:10:47  replay_base: started (rc_track_tts.sh)
+2026-11-11 06:49:51  replay_base: done (39 min)
+2026-11-11 06:49:51  track tts (rc_track_tts.sh): finished
+2026-11-11 07:13:09  selfval_rerun: done (268 min)
+2026-11-11 07:13:09  report_prompting: started (rc_track.sh)
+2026-11-11 07:13:10  report_prompting: done (0 min)
+2026-11-11 07:13:10  track selfval (rc_track.sh): finished
+2026-11-11 07:13:28  finish: the Use 1 and Self-Validation tracks have ended
+2026-11-11 07:13:28  replay_all: started (rc_finish.sh)
+2026-11-11 07:15:29  replay_all: done (2 min)
+2026-11-11 07:15:29  report: started (rc_finish.sh)
+2026-11-11 07:18:50  report: done (3 min)
+2026-11-11 07:18:50  report_prompting: started (rc_finish.sh)
+2026-11-11 07:18:51  report_prompting: done (0 min)
+2026-11-11 07:18:51  stopping our judge (pid 2115760)
+2026-11-11 07:18:51  report: tts_out/reward_comparison.md and .html; lmms_eval_baselines/prompting_comparison.md and .html
+2026-11-11 07:18:51  FINISHED

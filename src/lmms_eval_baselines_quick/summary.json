@@ -1,0 +1,138 @@
+{
+  "baseline": "selfval_bon",
+  "models": {
+    "selfval_bon": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "selfval_fta": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "logiccheck": "Qwen/Qwen2.5-VL-7B-Instruct"
+  },
+  "groups": {
+    "mcq": {
+      "mmstar": {
+        "average": {
+          "values": {
+            "logiccheck": 0.0
+          },
+          "higher_is_better": true
+        },
+        "coarse perception": {
+          "values": {
+            "logiccheck": 0.0
+          },
+          "higher_is_better": true
+        }
+      }
+    },
+    "caption": {
+      "coco_cap_chair": {
+        "coco_cap_chair_i": {
+          "values": {
+            "selfval_bon": 8.695652173913043,
+            "selfval_fta": 0.0,
+            "logiccheck": 8.333333333333332
+          },
+          "higher_is_better": false
+        },
+        "coco_cap_chair_s": {
+          "values": {
+            "selfval_bon": 25.0,
+            "selfval_fta": 0.0,
+            "logiccheck": 25.0
+          },
+          "higher_is_better": false
+        },
+        "coco_cap_recall": {
+          "values": {
+            "selfval_bon": 83.33333333333334,
+            "selfval_fta": 83.33333333333334,
+            "logiccheck": 83.33333333333334
+          },
+          "higher_is_better": true
+        },
+        "words per caption": {
+          "values": {
+            "selfval_bon": 107.25,
+            "selfval_fta": 98.75,
+            "logiccheck": 95.5
+          },
+          "higher_is_better": null
+        }
+      },
+      "docci_caption": {
+        "docci_Bleu_4": {
+          "values": {
+            "selfval_bon": 0.06767235982928776,
+            "selfval_fta": 0.09212146923864635,
+            "logiccheck": 0.057806570391677865
+          },
+          "higher_is_better": true
+        },
+        "docci_CAPTURE": {
+          "values": {
+            "selfval_bon": 0.5686333179473877,
+            "selfval_fta": 0.5920006036758423,
+            "logiccheck": 0.5552608370780945
+          },
+          "higher_is_better": true
+        },
+        "docci_CIDEr": {
+          "values": {
+            "selfval_bon": 0.01636109111207533,
+            "selfval_fta": 0.00457883863922276,
+            "logiccheck": 0.19604672950377242
+          },
+          "higher_is_better": true
+        },
+        "docci_METEOR": {
+          "values": {
+            "selfval_bon": 0.12555009099736,
+            "selfval_fta": 0.15771135756258586,
+            "logiccheck": 0.12995293600208643
+          },
+          "higher_is_better": true
+        },
+        "docci_ROUGE_L": {
+          "values": {
+            "selfval_bon": 0.24123253968064057,
+            "selfval_fta": 0.26951128839492705,
+            "logiccheck": 0.2478907247326792
+          },
+          "higher_is_better": true
+        },
+        "words per caption": {
+          "values": {
+            "selfval_bon": 95.25,
+            "selfval_fta": 110.0,
+            "logiccheck": 84.75
+          },
+          "higher_is_better": null
+        }
+      }
+    },
+    "general": {
+      "mmbench_en_dev_static": {
+        "gpt_eval_score": {
+          "values": {
+            "logiccheck": 100.0
+          },
+          "higher_is_better": true
+        }
+      },
+      "mme": {
+        "mme_cognition_score": {
+          "values": {
+            "logiccheck": 50.0
+          },
+          "higher_is_better": true
+        }
+      },
+      "mmvet": {
+        "gpt_eval_score": {
+          "values": {
+            "logiccheck": 100.0
+          },
+          "higher_is_better": true
+        }
+      }
+    }
+  }
+}

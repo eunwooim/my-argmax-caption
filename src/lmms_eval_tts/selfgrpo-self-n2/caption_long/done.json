@@ -1,0 +1,32 @@
+{
+  "cmd": [
+    "/mnt/data2/mchung45/.conda/envs/argmax/bin/python",
+    "/mnt/data1/mchung45/argmax_caption_with_docci_qa/lmms_eval_lora.py",
+    "--prompting",
+    "replay",
+    "--prompting_args",
+    "{\"file\": \"/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/selfgrpo/selected/self_n2.jsonl\"}",
+    "--model",
+    "qwen2_5_vl",
+    "--force_simple",
+    "--model_args",
+    "pretrained=/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub,min_pixels=3136,max_pixels=802816",
+    "--tasks",
+    "captionqa_x_natural,captionqa_x_document,captionqa_x_ecommerce,captionqa_x_embodiedai,amber_g,chair500",
+    "--batch_size",
+    "8",
+    "--seed",
+    "0",
+    "--log_samples",
+    "--output_path",
+    "lmms_eval_tts/selfgrpo-self-n2/caption_long",
+    "--use_cache",
+    "lmms_eval_tts/selfgrpo-self-n2/caption_long/cache",
+    "--gen_kwargs",
+    "max_new_tokens=4096,temperature=0",
+    "--include_path",
+    "/mnt/data2/mchung45/lmms_eval_work/custom_tasks"
+  ],
+  "sec": 499,
+  "finished": "2026-11-11 04:34:39"
+}

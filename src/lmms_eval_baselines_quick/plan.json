@@ -1,0 +1,96 @@
+{
+  "models": {
+    "selfval_bon": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "selfval_fta": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "logiccheck": "Qwen/Qwen2.5-VL-7B-Instruct"
+  },
+  "lora_base": null,
+  "groups": {
+    "mcq": {
+      "tasks": [
+        "mmstar"
+      ],
+      "gen_kwargs": null
+    },
+    "caption": {
+      "tasks": [
+        "coco_cap_chair",
+        "docci_caption"
+      ],
+      "gen_kwargs": "max_new_tokens=128,temperature=0"
+    },
+    "general": {
+      "tasks": [
+        "mmbench_en_dev_static",
+        "mme",
+        "mmvet"
+      ],
+      "gen_kwargs": "temperature=0"
+    }
+  },
+  "model_args": "min_pixels=3136,max_pixels=802816",
+  "seed": 0,
+  "limit": 4,
+  "prompting": {
+    "selfval_bon": {
+      "method": "selfval_bon",
+      "settings": {
+        "n": 10,
+        "temperature": 0.5,
+        "top_k": 50,
+        "lpfv_top_k": 50,
+        "lpfv_temperature": 1.0
+      },
+      "applies": [
+        "coco_cap_chair",
+        "docci_caption",
+        "mock_caption"
+      ]
+    },
+    "selfval_fta": {
+      "method": "selfval_fta",
+      "settings": {
+        "n": 3,
+        "temperature": 0.5,
+        "top_k": 50,
+        "lpfv_top_k": 50,
+        "lpfv_temperature": 1.0,
+        "alpha": 0.01
+      },
+      "applies": [
+        "coco_cap_chair",
+        "docci_caption",
+        "mock_caption"
+      ]
+    },
+    "logiccheck": {
+      "method": "logiccheck",
+      "settings": {
+        "threshold": 0.4,
+        "extra_samples": 2,
+        "sample_temperature": 1.0,
+        "sample_top_k": 50,
+        "lvlm_max_new_tokens": 512,
+        "llm_temperature": 0.2,
+        "llm_max_tokens": 1024,
+        "max_attr_questions": 5,
+        "llm_url": null,
+        "llm_model": null,
+        "llm_workers": 16
+      },
+      "applies": null
+    }
+  },
+  "skip_tasks": [
+    "pope",
+    "mmvp"
+  ],
+  "batch_size": 8,
+  "include_path": "/mnt/data2/mchung45/lmms_eval_work/custom_tasks",
+  "force_simple": true,
+  "lmms_eval_version": {
+    "version": "0.7.4",
+    "commit": null
+  },
+  "created": "2026-11-06 23:49:22"
+}

@@ -1,0 +1,130 @@
+{
+  "generator": "openai/gpt-oss-120b",
+  "caption2_model": "Qwen/Qwen2.5-VL-7B-Instruct (before RL, LoRA off)",
+  "caption2_prompt": "detailed",
+  "judges": [
+    "gpt-oss-120b"
+  ],
+  "require": "all",
+  "qa_format": "open-ended",
+  "hal_mcq_truth": false,
+  "max_answer_words": 5,
+  "images_in": 5000,
+  "images": 4982,
+  "coverage": {
+    "P+N+H": 2888,
+    "P+N": 1868,
+    "P+H": 127,
+    "P": 99
+  },
+  "coverage_qa": {
+    "P+N": {
+      "positive": 6699,
+      "negative": 4714,
+      "hallucinated": 0
+    },
+    "P+N+H": {
+      "positive": 10605,
+      "negative": 7847,
+      "hallucinated": 4748
+    },
+    "P+H": {
+      "positive": 460,
+      "negative": 0,
+      "hallucinated": 184
+    },
+    "P": {
+      "positive": 358,
+      "negative": 0,
+      "hallucinated": 0
+    }
+  },
+  "dropped_images": {
+    "no_positive": 18
+  },
+  "dropped_no_positive_cases": {
+    "N": 8,
+    "N+H": 9,
+    "none": 1
+  },
+  "qa": 35615,
+  "qa_per_set": {
+    "positive": 18122,
+    "negative": 12561,
+    "hallucinated": 4932
+  },
+  "neg_type": {
+    "contradiction": 3427,
+    "omission": 9134
+  },
+  "paired_contradictions": 1111,
+  "category": {
+    "positive": {
+      "object": 8476,
+      "attribute": 4902,
+      "action": 339,
+      "count": 696,
+      "spatial": 700,
+      "scene": 2087,
+      "text": 856,
+      "relational": 66
+    },
+    "negative": {
+      "object": 4148,
+      "attribute": 5772,
+      "action": 252,
+      "count": 910,
+      "spatial": 975,
+      "scene": 146,
+      "text": 341,
+      "relational": 17
+    },
+    "hallucinated": {
+      "object": 1632,
+      "attribute": 2223,
+      "action": 122,
+      "count": 148,
+      "spatial": 131,
+      "scene": 119,
+      "text": 544,
+      "relational": 13
+    }
+  },
+  "format": {
+    "positive": {
+      "open-ended": 18122,
+      "mcq": 0
+    },
+    "negative": {
+      "open-ended": 12561,
+      "mcq": 0
+    },
+    "hallucinated": {
+      "open-ended": 4932,
+      "mcq": 0
+    }
+  },
+  "meta_language_removed": 4276,
+  "dropped_qa": {
+    "hallucinated: rule meta_language": 4067,
+    "hallucinated: rule truth_too_long": 3165,
+    "positive: judge (wrong set / answer)": 2588,
+    "negative: rule answer_too_long": 1889,
+    "negative: judge (wrong set / answer)": 1768,
+    "negative: rule meta_language": 1366,
+    "hallucinated: rule answer_too_long": 1240,
+    "hallucinated: judge (wrong set / answer)": 961,
+    "positive: rule answer_too_long": 410,
+    "hallucinated: rule bad_category": 200,
+    "negative: rule bad_category": 170,
+    "positive: rule bad_category": 132,
+    "positive: rule meta_language": 130,
+    "hallucinated: judge (not atomic)": 10,
+    "positive: judge (not atomic)": 9,
+    "positive: rule not_a_question": 5,
+    "hallucinated: rule claim_equals_truth": 3,
+    "negative: judge (not atomic)": 2,
+    "negative: rule duplicate": 2,
+    "negative: rule not_a_question": 1
+  }
+}

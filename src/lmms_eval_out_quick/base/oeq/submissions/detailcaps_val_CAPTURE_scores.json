@@ -1,0 +1,22 @@
+[
+    {
+        "image_id": "coco2017/val/000000211042.jpg",
+        "caption": "The image shows a bathroom with a cat standing on its hind legs, leaning over the edge of a toilet bowl. The cat appears to be drinking or investigating something inside the toilet. The bathroom has a black and white checkered floor, which contrasts with the beige carpeted area to the right. The walls are tiled with white tiles, and there is a shower curtain with a pattern of pink flamingos. To the left of the toilet, there is a trash can with some items in it, including what looks like a black hat or cap. On top of the toilet tank, there are various items, including a roll of paper towels and",
+        "id": 1
+    },
+    {
+        "image_id": "coco2017/val/000000154358.jpg",
+        "caption": "This image depicts a cozy and warmly lit living room with a vintage aesthetic. The walls are painted a warm orange color, which complements the terracotta-colored tiled floor. The room is furnished with several pieces of furniture that have a classic design.\n\n- **Seating Area**: There are two red armchairs with patterned cushions placed near the windows on either side of the room. One of the chairs has a person sitting on it, seemingly engaged with a laptop.\n- **Coffee Table**: A rectangular wooden coffee table sits in the center of the room, adorned with a few items including a small potted plant and some books or",
+        "id": 2
+    },
+    {
+        "image_id": "coco2017/val/000000414385.jpg",
+        "caption": "The image appears to be taken from inside a car, looking out through the windshield at a scene on a highway. The dashboard of the car is visible in the foreground, with part of the steering wheel and a portion of the dashboard panel. Outside, there is a multi-lane highway with several cars traveling in both directions. On the right side of the road, near the shoulder, a person is skateboarding. The skateboarder is wearing a dark shirt, light-colored pants, and a cap. The background shows a clear blue sky and a dry, grassy area with some sparse vegetation. There are also some red structures or barriers visible",
+        "id": 3
+    },
+    {
+        "image_id": "coco2017/val/000000535156.jpg",
+        "caption": "The image shows two elephants in an outdoor setting, likely a zoo or wildlife sanctuary. The elephant in the foreground is standing close to a large black pole, using its trunk to interact with it. Its ears are spread out, and it appears to be in a relaxed posture. The second elephant is further back on the left side of the image, walking away from the camera. The background features a grassy area with some trees and fencing, indicating a controlled environment. The overall scene suggests a calm and naturalistic habitat for the elephants.",
+        "id": 4
+    }
+]

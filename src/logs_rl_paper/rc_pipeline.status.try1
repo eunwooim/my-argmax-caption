@@ -1,0 +1,4 @@
+2026-11-11 00:37:12  pipeline started (pid 2072553); GPU free = at most 80000 MiB used and 10% busy, GPUs 4-7
+2026-11-11 00:37:12  setup: started
+2026-11-11 00:42:21  setup: done (5 min)
+2026-11-11 00:42:21  dump: started

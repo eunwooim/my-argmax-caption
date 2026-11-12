@@ -1,0 +1,170 @@
+{
+ "self_n2": {
+  "file": "tts_out/base/selected/self_n2.jsonl",
+  "items": 2161,
+  "words": 148.90328551596482,
+  "first_pick": 0.5136510874595095
+ },
+ "self_n4": {
+  "file": "tts_out/base/selected/self_n4.jsonl",
+  "items": 2161,
+  "words": 146.6015733456733,
+  "first_pick": 0.25358630263766774
+ },
+ "self_n8": {
+  "file": "tts_out/base/selected/self_n8.jsonl",
+  "items": 2161,
+  "words": 143.20638593243868,
+  "first_pick": 0.11707542804257288
+ },
+ "self_n16": {
+  "file": "tts_out/base/selected/self_n16.jsonl",
+  "items": 2161,
+  "words": 140.63581675150394,
+  "first_pick": 0.056918093475242945
+ },
+ "random_n2": {
+  "file": "tts_out/base/selected/random_n2.jsonl",
+  "items": 2161,
+  "words": 155.11568718186024,
+  "first_pick": 0.5094863489125405
+ },
+ "random_n4": {
+  "file": "tts_out/base/selected/random_n4.jsonl",
+  "items": 2161,
+  "words": 152.658954187876,
+  "first_pick": 0.24849606663581675
+ },
+ "random_n8": {
+  "file": "tts_out/base/selected/random_n8.jsonl",
+  "items": 2161,
+  "words": 153.23415085608514,
+  "first_pick": 0.1092086996760759
+ },
+ "random_n16": {
+  "file": "tts_out/base/selected/random_n16.jsonl",
+  "items": 2161,
+  "words": 153.9865802869042,
+  "first_pick": 0.07357704766311893
+ },
+ "shortest_n2": {
+  "file": "tts_out/base/selected/shortest_n2.jsonl",
+  "items": 2161,
+  "words": 139.1559463211476,
+  "first_pick": 0.5071726052753355
+ },
+ "shortest_n4": {
+  "file": "tts_out/base/selected/shortest_n4.jsonl",
+  "items": 2161,
+  "words": 129.24849606663582,
+  "first_pick": 0.25590004627487273
+ },
+ "shortest_n8": {
+  "file": "tts_out/base/selected/shortest_n8.jsonl",
+  "items": 2161,
+  "words": 121.16705229060621,
+  "first_pick": 0.12540490513651087
+ },
+ "shortest_n16": {
+  "file": "tts_out/base/selected/shortest_n16.jsonl",
+  "items": 2161,
+  "words": 114.56640444238778,
+  "first_pick": 0.06524757056918093
+ },
+ "selfcert_n2": {
+  "file": "tts_out/base/selected/selfcert_n2.jsonl",
+  "items": 2161,
+  "words": 153.59648310967145,
+  "first_pick": 0.5025451180009255
+ },
+ "selfcert_n4": {
+  "file": "tts_out/base/selected/selfcert_n4.jsonl",
+  "items": 2161,
+  "words": 155.18556223970384,
+  "first_pick": 0.25590004627487273
+ },
+ "selfcert_n8": {
+  "file": "tts_out/base/selected/selfcert_n8.jsonl",
+  "items": 2161,
+  "words": 156.3836186950486,
+  "first_pick": 0.12956964368347987
+ },
+ "selfcert_n16": {
+  "file": "tts_out/base/selected/selfcert_n16.jsonl",
+  "items": 2161,
+  "words": 157.70846830171217,
+  "first_pick": 0.06524757056918093
+ },
+ "longclip_n2": {
+  "file": "tts_out/base/selected/longclip_n2.jsonl",
+  "items": 2161,
+  "words": 152.3174456270245,
+  "first_pick": 0.5099490976399815
+ },
+ "longclip_n4": {
+  "file": "tts_out/base/selected/longclip_n4.jsonl",
+  "items": 2161,
+  "words": 151.3803794539565,
+  "first_pick": 0.25219805645534477
+ },
+ "longclip_n8": {
+  "file": "tts_out/base/selected/longclip_n8.jsonl",
+  "items": 2161,
+  "words": 149.60296159185563,
+  "first_pick": 0.12725590004627488
+ },
+ "longclip_n16": {
+  "file": "tts_out/base/selected/longclip_n16.jsonl",
+  "items": 2161,
+  "words": 148.93937991670524,
+  "first_pick": 0.06293382693197594
+ },
+ "lpfv_n2": {
+  "file": "tts_out/base/selected/lpfv_n2.jsonl",
+  "items": 2161,
+  "words": 153.83341045812125,
+  "first_pick": 0.6871818602498843
+ },
+ "lpfv_n4": {
+  "file": "tts_out/base/selected/lpfv_n4.jsonl",
+  "items": 2161,
+  "words": 152.96344285053218,
+  "first_pick": 0.5080981027302175
+ },
+ "lpfv_n8": {
+  "file": "tts_out/base/selected/lpfv_n8.jsonl",
+  "items": 2161,
+  "words": 151.68579361406756,
+  "first_pick": 0.4090698750578436
+ },
+ "lpfv_n16": {
+  "file": "tts_out/base/selected/lpfv_n16.jsonl",
+  "items": 2161,
+  "words": 151.66682091624247,
+  "first_pick": 0.35585377140212865
+ },
+ "jina_n2": {
+  "file": "tts_out/base/selected/jina_n2.jsonl",
+  "items": 2161,
+  "words": 152.12077741786212,
+  "first_pick": 0.5113373438223044
+ },
+ "jina_n4": {
+  "file": "tts_out/base/selected/jina_n4.jsonl",
+  "items": 2161,
+  "words": 151.7913003239241,
+  "first_pick": 0.2637667746413697
+ },
+ "jina_n8": {
+  "file": "tts_out/base/selected/jina_n8.jsonl",
+  "items": 2161,
+  "words": 151.7788061082832,
+  "first_pick": 0.13465987968533086
+ },
+ "jina_n16": {
+  "file": "tts_out/base/selected/jina_n16.jsonl",
+  "items": 2161,
+  "words": 150.81304951411383,
+  "first_pick": 0.06617306802406293
+ }
+}

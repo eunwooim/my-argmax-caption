@@ -1,0 +1,25 @@
+2026-11-06 23:49:21  pipeline started (pid 3098622)
+2026-11-06 23:49:21  baselines_quick: started
+2026-11-06 23:50:02  FAILED: baselines_quick exited with an error, see logs_rl_paper/prompting_pipeline_quick.log
+2026-11-06 23:50:02  stopping our judge (pid 3084658)
+2026-11-06 23:51:11  pipeline started (pid 3107568)
+2026-11-06 23:51:12  waiting for a Hugging Face login: run  hf auth login
+2026-11-07 09:19:11  pipeline started (pid 1311917)
+2026-11-07 09:19:11  Hugging Face login ok (mwc5697)
+2026-11-07 09:19:11  baselines_quick: started
+2026-11-07 09:41:23  baselines_quick: passed (5/5 cells)
+2026-11-07 09:41:23  baselines: starting 3 workers
+09:43:19  paused by Claude: logiccheck caption cells mixed up images between coco and docci in the quick run; worker 1 (logiccheck/mcq) left running
+2026-11-07 10:07:00  pipeline started (pid 1624039)
+2026-11-07 10:07:00  Hugging Face login ok (mwc5697)
+2026-11-07 10:07:00  baselines: starting 2 workers
+2026-11-07 10:11:12  baselines: 1/5 cells done
+2026-11-07 12:06:26  restart by Claude: logiccheck/caption worker (GPU 6, shared with a 100% job) stopped; relaunched pinned to GPU 5 with PROMPTING_GEN_BATCH=64
+2026-11-07 13:19:51  restart by Claude: GPU 5 was full (142/144 GB, our 55 GB batch-64 worker next to the selfval_bon scorer); logiccheck/caption moved to GPU 7 with the default batch 16; trace lines 1-104 are from the two stopped workers
+2026-11-07 13:33:30  baselines: 2/5 cells done
+2026-11-07 13:45:31  baselines: 3/5 cells done
+2026-11-07 17:29:50  baselines: 4/5 cells done
+2026-11-08 09:15:10  baselines: 5/5 cells done
+2026-11-08 09:15:12  report: lmms_eval_baselines/prompting_comparison.md and .html
+2026-11-08 09:15:12  stopping our judge (pid 1119717)
+2026-11-08 09:15:12  FINISHED

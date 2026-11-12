@@ -1,0 +1,66 @@
+{
+  "coco_val": {
+    "before": {
+      "words": 90.754,
+      "sents": 5.326,
+      "rep3": 0.008946761811555692,
+      "distinct1": 0.07887255658152809,
+      "distinct2": 0.3613432270428059,
+      "vocab": 3579,
+      "proper_per_cap": 1.142,
+      "number_per_cap": 0.534,
+      "unique_captions": 1.0,
+      "chair_i": 0.16639871382636656,
+      "chair_s": 0.328,
+      "bleu4": 0.038546989061184395,
+      "cider": 1.2156769655085692e-07
+    },
+    "after": {
+      "words": 56.95,
+      "sents": 3.474,
+      "rep3": 0.0038457061830077014,
+      "distinct1": 0.09727831431079895,
+      "distinct2": 0.4013941018766756,
+      "vocab": 2770,
+      "proper_per_cap": 0.8,
+      "number_per_cap": 0.434,
+      "unique_captions": 1.0,
+      "chair_i": 0.10991957104557641,
+      "chair_s": 0.206,
+      "bleu4": 0.06416258989888887,
+      "cider": 0.00755158818401371
+    }
+  },
+  "docci_ood": {
+    "before": {
+      "words": 92.0,
+      "sents": 5.31,
+      "rep3": 0.009720359539430143,
+      "distinct1": 0.11896739130434783,
+      "distinct2": 0.4582417582417582,
+      "vocab": 2189,
+      "proper_per_cap": 1.14,
+      "number_per_cap": 0.415,
+      "unique_captions": 1.0,
+      "chair_i": 0.36818181818181817,
+      "chair_s": 0.325,
+      "bleu4": 0.04645358165803167,
+      "cider": 0.11564942688398264
+    },
+    "after": {
+      "words": 63.37,
+      "sents": 3.88,
+      "rep3": 0.0055606259800560194,
+      "distinct1": 0.1453369102098785,
+      "distinct2": 0.5051306717973385,
+      "vocab": 1842,
+      "proper_per_cap": 0.76,
+      "number_per_cap": 0.375,
+      "unique_captions": 1.0,
+      "chair_i": 0.2958579881656805,
+      "chair_s": 0.205,
+      "bleu4": 0.030456952372493847,
+      "cider": 0.05535907152646971
+    }
+  }
+}

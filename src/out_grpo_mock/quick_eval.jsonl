@@ -1,0 +1,1 @@
+{"step": 2, "n": 2, "scores": {"reward": {"name": "S2-raw@L4", "before": 0.839758962392807, "after": 0.839758962392807, "diff": {"mean": 0.0, "lo": 0.0, "hi": 0.0, "n": 2, "n_images": 2}, "win": {"mean": 0.0, "lo": 0.0, "hi": 0.0, "n": 2, "n_images": 2}}}, "words_before": 1.0, "words_after": 1.0}

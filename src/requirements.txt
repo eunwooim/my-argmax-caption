@@ -1,0 +1,11 @@
+torch>=2.4
+torchvision
+transformers>=4.57
+accelerate
+peft>=0.17
+safetensors
+numpy
+pillow
+matplotlib
+vllm>=0.10.1  # QA generation, grading, benchmark; Qwen3 needs >=0.8.5, gpt-oss >=0.10.1, Qwen3-VL >=0.11
+openai>=1.40  # only for --backend openai

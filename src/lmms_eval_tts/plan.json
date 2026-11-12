@@ -1,0 +1,474 @@
+{
+  "models": {
+    "selfgrpo-first-n1": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "selfgrpo-self-n16": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "selfgrpo-self-n2": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "selfgrpo-self-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "selfgrpo-self-n8": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-first-n1": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-jina-n16": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-jina-n2": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-jina-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-jina-n8": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-longclip-n16": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-longclip-n2": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-longclip-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-longclip-n8": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-lpfv-n16": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-lpfv-n2": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-lpfv-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-lpfv-n8": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-random-n16": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-random-n2": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-random-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-random-n8": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-self-n16": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-self-n2": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-self-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-self-n8": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-selfcert-n16": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-selfcert-n2": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-selfcert-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-selfcert-n8": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-shortest-n16": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-shortest-n2": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-shortest-n4": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub",
+    "base-shortest-n8": "/mnt/data2/mchung45/argmax_caption_work/outputs/rl_paper/replay_stub"
+  },
+  "lora_base": null,
+  "groups": {
+    "caption_long": {
+      "tasks": [
+        "captionqa_x_natural",
+        "captionqa_x_document",
+        "captionqa_x_ecommerce",
+        "captionqa_x_embodiedai",
+        "amber_g",
+        "chair500"
+      ],
+      "gen_kwargs": "max_new_tokens=4096,temperature=0"
+    }
+  },
+  "model_args": "min_pixels=3136,max_pixels=802816",
+  "seed": 0,
+  "limit": null,
+  "prompting": {
+    "selfgrpo-first-n1": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/selfgrpo/selected/first_n1.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "selfgrpo-self-n16": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/selfgrpo/selected/self_n16.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "selfgrpo-self-n2": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/selfgrpo/selected/self_n2.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "selfgrpo-self-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/selfgrpo/selected/self_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "selfgrpo-self-n8": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/selfgrpo/selected/self_n8.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-first-n1": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/first_n1.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-jina-n16": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/jina_n16.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-jina-n2": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/jina_n2.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-jina-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/jina_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-jina-n8": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/jina_n8.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-longclip-n16": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/longclip_n16.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-longclip-n2": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/longclip_n2.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-longclip-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/longclip_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-longclip-n8": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/longclip_n8.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-lpfv-n16": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/lpfv_n16.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-lpfv-n2": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/lpfv_n2.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-lpfv-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/lpfv_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-lpfv-n8": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/lpfv_n8.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-random-n16": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/random_n16.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-random-n2": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/random_n2.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-random-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/random_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-random-n8": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/random_n8.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-self-n16": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/self_n16.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-self-n2": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/self_n2.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-self-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/self_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-self-n8": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/self_n8.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-selfcert-n16": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/selfcert_n16.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-selfcert-n2": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/selfcert_n2.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-selfcert-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/selfcert_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-selfcert-n8": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/selfcert_n8.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-shortest-n16": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/shortest_n16.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-shortest-n2": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/shortest_n2.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-shortest-n4": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/shortest_n4.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    },
+    "base-shortest-n8": {
+      "method": "replay",
+      "settings": {
+        "file": "/mnt/data1/mchung45/argmax_caption_with_docci_qa/tts_out/base/selected/shortest_n8.jsonl"
+      },
+      "applies": [
+        "captionqa_x",
+        "amber_g",
+        "chair500",
+        "mock_caption"
+      ]
+    }
+  },
+  "skip_tasks": [],
+  "batch_size": 8,
+  "include_path": "/mnt/data2/mchung45/lmms_eval_work/custom_tasks",
+  "force_simple": true,
+  "lmms_eval_version": {
+    "version": "0.7.4",
+    "commit": null
+  },
+  "created": "2026-11-11 04:25:40"
+}

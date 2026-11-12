@@ -1,0 +1,6 @@
+{"qa_id": "test_01895_hal0", "label": "wrong", "reason": "The model's answer does not match the true answer or the known false answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_hal2", "label": "wrong", "reason": "The model's answer does not match the true answer or the known false answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_neg0", "label": "wrong", "reason": "The model's answer 'Red' does not match the true answer 'gray' or the known false answer 'light brown'.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_neg2", "label": "wrong", "reason": "The model's answer is different from both the true answer and the known false answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_pos0", "label": "correct", "reason": "The model's answer 'Brick wall' is equivalent to the true answer 'a brick building'.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01895_pos1", "label": "correct", "reason": "The model's answer 'Blue' conveys the same meaning as the true answer 'clear blue'.", "model": "Qwen/Qwen3-32B"}

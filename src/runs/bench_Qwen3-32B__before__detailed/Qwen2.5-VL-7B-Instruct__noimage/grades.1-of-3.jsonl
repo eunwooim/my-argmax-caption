@@ -1,0 +1,24 @@
+{"qa_id": "test_01763_hal4", "label": "wrong", "reason": "The model's answer 'Brown' does not match the true answer 'black'.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg5", "label": "wrong", "reason": "The model's answer is a similar but not identical color to the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg8", "label": "wrong", "reason": "The model's answer assumes a detail not specified in the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal0", "label": "correct", "reason": "The model's answer matches the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg2", "label": "correct", "reason": "The model's answer matches the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal1", "label": "correct", "reason": "The model's answer correctly states that the peacock's wings are iridescent with colors like blue, green, and gold, and does not claim a specific color like purple.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal2", "label": "wrong", "reason": "The model's answer provides a specific color (red) when the true answer is that the color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg3", "label": "wrong", "reason": "The model's answer provides a specific color, but the true answer states that the color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal5", "label": "wrong", "reason": "The model's answer provides a specific color, which is not mentioned in the true answer or the known false answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg6", "label": "wrong", "reason": "The model's answer provides a specific color, but the true answer states that the color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_hal9", "label": "correct", "reason": "The model's answer is a reasonable interpretation and does not contradict the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg0", "label": "wrong", "reason": "The model's answer provides a specific description of the zebra pattern, which is not specified in the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg1", "label": "correct", "reason": "The model's answer correctly states that the peacock's wings are iridescent with colors like blue, green, and gold, and does not claim a specific solid color like purple.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_neg7", "label": "wrong", "reason": "The model's answer specifies a color (white) that is not mentioned in the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos0", "label": "wrong", "reason": "The model's answer does not provide the true answer and instead requests more information.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos1", "label": "correct", "reason": "The model's answer conveys the same meaning as the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos2", "label": "correct", "reason": "The model's answer is consistent with the true answer as the ground can be described as green turf.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos3", "label": "wrong", "reason": "The model's answer does not address the color of the statue's legs.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos4", "label": "correct", "reason": "The model's answer correctly states that the beak color is not specified.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos5", "label": "correct", "reason": "The peacock does not have a nose, which is correct since peacocks do not have noses.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos6", "label": "wrong", "reason": "The model's answer is incorrect and does not match the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos7", "label": "wrong", "reason": "The model's answer does not match the true answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos8", "label": "wrong", "reason": "The model's answer does not match the true answer or any known false answer.", "model": "Qwen/Qwen3-32B"}
+{"qa_id": "test_01763_pos9", "label": "wrong", "reason": "The model's answer states the roof is red, which does not match the true answer.", "model": "Qwen/Qwen3-32B"}

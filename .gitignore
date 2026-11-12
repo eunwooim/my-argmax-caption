@@ -1,0 +1,59 @@
+# data directories
+src/playground/
+
+# byte-compiled / optimized / DLL files / logs
+__pycache__/
+*.py[cod]
+*$.py.class
+__pycache__/
+cache/
+.cache/
+wandb/
+*.log
+nohup.out
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE
+.vscode/
+*.code-workspace
+
+# weights and checkpoints
+*.h5
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+**/adapter/
+**/checkpoint-*/
+
+# arrays, datasets, images
+*.npy
+*.npz
+*.pkl
+*.parquet
+*.arrow
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.png
+*.zip
+
+# lmms-eval: keep only summaries
+**/lmms_eval_out/**
+!**/lmms_eval_out/**/
+!**/lmms_eval_out/**/*_results.json
+!**/lmms_eval_out/summary.md
+**/lmms_eval_baselines/**
+!**/lmms_eval_baselines/**/
+!**/lmms_eval_baselines/**/*_results.json
+*_samples_*.jsonl
+*prompting_trace*.jsonl
+
+# secrets
+.env

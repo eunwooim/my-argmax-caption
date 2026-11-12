@@ -1,0 +1,1100 @@
+{
+  "results": {
+    "llava_in_the_wild": {
+      "alias": "llava_in_the_wild",
+      "gpt_eval_llava_conv,none": 160.0,
+      "gpt_eval_llava_conv_stderr,none": "N/A",
+      "gpt_eval_llava_conv_stderr_clt,none": "N/A",
+      "gpt_eval_llava_conv_stderr_clustered,none": "N/A",
+      "gpt_eval_llava_detail,none": 114.3,
+      "gpt_eval_llava_detail_stderr,none": "N/A",
+      "gpt_eval_llava_detail_stderr_clt,none": "N/A",
+      "gpt_eval_llava_detail_stderr_clustered,none": "N/A",
+      "gpt_eval_llava_complex,none": 100.0,
+      "gpt_eval_llava_complex_stderr,none": "N/A",
+      "gpt_eval_llava_complex_stderr_clt,none": "N/A",
+      "gpt_eval_llava_complex_stderr_clustered,none": "N/A",
+      "gpt_eval_llava_all,none": 114.8,
+      "gpt_eval_llava_all_stderr,none": "N/A",
+      "gpt_eval_llava_all_stderr_clt,none": "N/A",
+      "gpt_eval_llava_all_stderr_clustered,none": "N/A"
+    },
+    "mmbench_en_dev_static": {
+      "alias": "mmbench_en_dev_static",
+      "gpt_eval_score,none": 100.0,
+      "gpt_eval_score_stderr,none": "N/A",
+      "gpt_eval_score_stderr_clt,none": "N/A",
+      "gpt_eval_score_stderr_clustered,none": "N/A",
+      "submission,none": null,
+      "submission_stderr,none": "N/A",
+      "submission_stderr_clt,none": "N/A",
+      "submission_stderr_clustered,none": "N/A"
+    },
+    "mme": {
+      "alias": "mme",
+      "mme_cognition_score,none": 125.0,
+      "mme_cognition_score_stderr,none": "N/A",
+      "mme_cognition_score_stderr_clt,none": 0.25,
+      "mme_cognition_score_stderr_clustered,none": "N/A"
+    },
+    "mmhal_bench": {
+      "alias": "mmhal_bench",
+      "mmhal_score,none": 0.0,
+      "mmhal_score_stderr,none": "N/A",
+      "mmhal_score_stderr_clt,none": 0.0,
+      "mmhal_score_stderr_clustered,none": "N/A",
+      "mmhal_hallucination_rate,none": 1.0,
+      "mmhal_hallucination_rate_stderr,none": "N/A",
+      "mmhal_hallucination_rate_stderr_clt,none": 0.0,
+      "mmhal_hallucination_rate_stderr_clustered,none": "N/A",
+      "mmhal_judge_failures,none": 1.0,
+      "mmhal_judge_failures_stderr,none": "N/A",
+      "mmhal_judge_failures_stderr_clt,none": 0.0,
+      "mmhal_judge_failures_stderr_clustered,none": "N/A"
+    },
+    "mmvet": {
+      "alias": "mmvet",
+      "gpt_eval_score,none": 0.0,
+      "gpt_eval_score_stderr,none": "N/A",
+      "gpt_eval_score_stderr_clt,none": 0.0,
+      "gpt_eval_score_stderr_clustered,none": "N/A"
+    },
+    "mmvp": {
+      "alias": "mmvp",
+      "mmvp_accuracy,none": 0.75,
+      "mmvp_accuracy_stderr,none": "N/A",
+      "mmvp_accuracy_stderr_clt,none": "N/A",
+      "mmvp_accuracy_stderr_clustered,none": "N/A",
+      "mmvp_pair_accuracy,none": 0.5,
+      "mmvp_pair_accuracy_stderr,none": "N/A",
+      "mmvp_pair_accuracy_stderr_clt,none": "N/A",
+      "mmvp_pair_accuracy_stderr_clustered,none": "N/A"
+    },
+    "pope_aokvqa_adversarial": {
+      "alias": "pope_aokvqa_adversarial",
+      "pope_accuracy,none": 1.0,
+      "pope_accuracy_stderr,none": "N/A",
+      "pope_accuracy_stderr_clt,none": 0.0,
+      "pope_accuracy_stderr_clustered,none": "N/A",
+      "pope_precision,none": 1.0,
+      "pope_precision_stderr,none": "N/A",
+      "pope_precision_stderr_clt,none": 0.0,
+      "pope_precision_stderr_clustered,none": "N/A",
+      "pope_recall,none": 1.0,
+      "pope_recall_stderr,none": "N/A",
+      "pope_recall_stderr_clt,none": 0.0,
+      "pope_recall_stderr_clustered,none": "N/A",
+      "pope_f1_score,none": 1.0,
+      "pope_f1_score_stderr,none": "N/A",
+      "pope_f1_score_stderr_clt,none": 0.0,
+      "pope_f1_score_stderr_clustered,none": "N/A",
+      "pope_yes_ratio,none": 0.5,
+      "pope_yes_ratio_stderr,none": "N/A",
+      "pope_yes_ratio_stderr_clt,none": 0.0,
+      "pope_yes_ratio_stderr_clustered,none": "N/A"
+    },
+    "pope_aokvqa_popular": {
+      "alias": "pope_aokvqa_popular",
+      "pope_accuracy,none": 0.75,
+      "pope_accuracy_stderr,none": "N/A",
+      "pope_accuracy_stderr_clt,none": 0.25,
+      "pope_accuracy_stderr_clustered,none": "N/A",
+      "pope_precision,none": 1.0,
+      "pope_precision_stderr,none": "N/A",
+      "pope_precision_stderr_clt,none": 0.25,
+      "pope_precision_stderr_clustered,none": "N/A",
+      "pope_recall,none": 0.6666666666666666,
+      "pope_recall_stderr,none": "N/A",
+      "pope_recall_stderr_clt,none": 0.25,
+      "pope_recall_stderr_clustered,none": "N/A",
+      "pope_f1_score,none": 0.8,
+      "pope_f1_score_stderr,none": "N/A",
+      "pope_f1_score_stderr_clt,none": 0.25,
+      "pope_f1_score_stderr_clustered,none": "N/A",
+      "pope_yes_ratio,none": 0.5,
+      "pope_yes_ratio_stderr,none": "N/A",
+      "pope_yes_ratio_stderr_clt,none": 0.25,
+      "pope_yes_ratio_stderr_clustered,none": "N/A"
+    },
+    "pope_aokvqa_random": {
+      "alias": "pope_aokvqa_random",
+      "pope_accuracy,none": 0.75,
+      "pope_accuracy_stderr,none": "N/A",
+      "pope_accuracy_stderr_clt,none": 0.25,
+      "pope_accuracy_stderr_clustered,none": "N/A",
+      "pope_precision,none": 1.0,
+      "pope_precision_stderr,none": "N/A",
+      "pope_precision_stderr_clt,none": 0.25,
+      "pope_precision_stderr_clustered,none": "N/A",
+      "pope_recall,none": 0.6666666666666666,
+      "pope_recall_stderr,none": "N/A",
+      "pope_recall_stderr_clt,none": 0.25,
+      "pope_recall_stderr_clustered,none": "N/A",
+      "pope_f1_score,none": 0.8,
+      "pope_f1_score_stderr,none": "N/A",
+      "pope_f1_score_stderr_clt,none": 0.25,
+      "pope_f1_score_stderr_clustered,none": "N/A",
+      "pope_yes_ratio,none": 0.5,
+      "pope_yes_ratio_stderr,none": "N/A",
+      "pope_yes_ratio_stderr_clt,none": 0.25,
+      "pope_yes_ratio_stderr_clustered,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "llava_in_the_wild": [],
+    "mmbench_en_dev_static": [],
+    "mme": [],
+    "mmhal_bench": [],
+    "mmvet": [],
+    "mmvp": [],
+    "pope_aokvqa_adversarial": [],
+    "pope_aokvqa_popular": [],
+    "pope_aokvqa_random": []
+  },
+  "configs": {
+    "llava_in_the_wild": {
+      "task": "llava_in_the_wild",
+      "dataset_path": "lmms-lab-encoder/llava-bench-in-the-wild",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "train",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function llava_doc_to_visual at 0x74bd1c0d18a0>",
+      "doc_to_text": "<function llava_doc_to_text at 0x74bd1c0d2660>",
+      "doc_to_target": "gpt_answer",
+      "stateful": false,
+      "process_results": "<function llava_process_results at 0x74bd1c0d3060>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "gpt_eval_llava_all",
+          "aggregation": "<function llava_all_aggregation at 0x74bd1c0d3ba0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "gpt_eval_llava_conv",
+          "aggregation": "<function llava_conv_aggregation at 0x74bc335502c0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "gpt_eval_llava_detail",
+          "aggregation": "<function llava_detail_aggregation at 0x74bc33550cc0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "gpt_eval_llava_complex",
+          "aggregation": "<function llava_complex_aggregation at 0x74bc335514e0>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "ASSISTANT:"
+        ],
+        "image_aspect_ratio": "original",
+        "max_new_tokens": 4096,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": ""
+        },
+        "pre_prompt": "",
+        "post_prompt": ""
+      },
+      "auto_strip_thinking": false
+    },
+    "mmbench_en_dev_static": {
+      "task": "mmbench_en_dev_static",
+      "dataset_path": "lmms-lab-encoder/MMBench",
+      "dataset_name": "en",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "dev",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function mmbench_doc_to_visual at 0x74bca2dbf240>",
+      "doc_to_text": "<function mmbench_doc_to_text at 0x74bca2dbf9c0>",
+      "doc_to_target": "answer",
+      "stateful": false,
+      "process_results": "<function mmbench_process_results at 0x74bca2de0180>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "gpt_eval_score",
+          "aggregation": "<function mmbench_aggregate_dev_results_static at 0x74bca2dbe340>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "submission",
+          "aggregation": "<function mmbench_aggregate_dev_results_submission at 0x74bca2dbec00>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "ASSISTANT:"
+        ],
+        "max_new_tokens": 1024,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+        },
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+      },
+      "model_specific_generation_kwargs": {
+        "llava": {
+          "image_aspect_ratio": "original"
+        }
+      },
+      "auto_strip_thinking": false
+    },
+    "mme": {
+      "task": "mme",
+      "dataset_path": "lmms-lab-encoder/MME",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function mme_doc_to_visual at 0x74bc89137b00>",
+      "doc_to_text": "<function mme_doc_to_text at 0x74bc89137920>",
+      "doc_to_target": "answer",
+      "stateful": false,
+      "process_results": "<function mme_process_results at 0x74bc89134680>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "mme_perception_score",
+          "aggregation": "<function mme_aggregate_results at 0x74bc89134b80>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "mme_cognition_score",
+          "aggregation": "<function mme_aggregate_results at 0x74bc89135120>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 16,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": [
+        {
+          "version": 0.0
+        }
+      ],
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer the question using a single word or phrase."
+        },
+        "gpt4v": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer the question with Yes or No."
+        },
+        "qwen_vl": {
+          "pre_prompt": "",
+          "post_prompt": " Answer:"
+        },
+        "otterhd": {
+          "pre_prompt": "",
+          "post_prompt": " Answer:"
+        },
+        "xcomposer2_4khd": {
+          "pre_prompt": "[UNUSED_TOKEN_146]user\n",
+          "post_prompt": " Answer this question briefly[UNUSED_TOKEN_145]\n[UNUSED_TOKEN_146]assistant\n"
+        },
+        "plm": {
+          "pre_prompt": "",
+          "post_prompt": ""
+        },
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer the question using a single word or phrase."
+      },
+      "auto_strip_thinking": false
+    },
+    "mmhal_bench": {
+      "task": "mmhal_bench",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/mnt/data2/minhochung/lmms_eval_work/selfaug_tasks/mmhal_bench.jsonl"
+        }
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function doc_to_visual at 0x74bca2de3d80>",
+      "doc_to_text": "<function mmhal_doc_to_text at 0x74bca2de1080>",
+      "doc_to_target": "gt_answer",
+      "stateful": false,
+      "process_results": "<function mmhal_process_results at 0x74bca2de2f20>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "mmhal_score",
+          "aggregation": "<function mmhal_score at 0x74bc89136de0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "mmhal_hallucination_rate",
+          "aggregation": "<function mmhal_hal_rate at 0x74bc891913a0>",
+          "higher_is_better": false
+        },
+        {
+          "metric": "mmhal_judge_failures",
+          "aggregation": "<function mmhal_failures at 0x74bc89191120>",
+          "higher_is_better": false
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 1024,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": []
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0,
+        "source": "Shengcao1006/MMHal-Bench response_template.json + images/; judge prompt from LLaVA-RLHF Eval/eval_gpt_mmhal.py"
+      },
+      "auto_strip_thinking": false
+    },
+    "mmvet": {
+      "task": "mmvet",
+      "dataset_path": "lmms-lab-encoder/MMVet",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function mmvet_doc_to_visual at 0x74bae45e3ce0>",
+      "doc_to_text": "<function doc_to_text at 0x74badbb2dc60>",
+      "doc_to_target": "{{answer}}",
+      "stateful": false,
+      "process_results": "<function mmvet_process_results at 0x74badbb2e0c0>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "gpt_eval_score",
+          "aggregation": "<function mmvet_aggregate_results at 0x74badbb2e700>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 1024,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "First please perform reasoning, and think step by step to provide best answer to the following question: \n\n",
+          "post_prompt": ""
+        },
+        "pre_prompt": "First please perform reasoning, and think step by step to provide best answer to the following question: \n\n",
+        "post_prompt": ""
+      },
+      "auto_strip_thinking": false
+    },
+    "mmvp": {
+      "task": "mmvp",
+      "dataset_path": "lmms-lab-eval/MMVP",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "train",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function mmvp_doc_to_visual at 0x74badbb719e0>",
+      "doc_to_text": "<function mmvp_doc_to_text at 0x74badbb72200>",
+      "doc_to_target": "<function mmvp_doc_to_target at 0x74badbb72a20>",
+      "stateful": false,
+      "process_results": "<function mmvp_process_results at 0x74badbb73240>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "mmvp_accuracy",
+          "aggregation": "<function mmvp_aggregate_results at 0x74badbb73a60>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "mmvp_pair_accuracy",
+          "aggregation": "<function mmvp_aggregate_pair_results at 0x74badbb8c2c0>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 16,
+        "temperature": 0,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.1
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+        },
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+      },
+      "auto_strip_thinking": false
+    },
+    "pope_aokvqa_adversarial": {
+      "task": "pope_aokvqa_adversarial",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/mnt/data2/minhochung/lmms_eval_work/selfaug_tasks/pope_aokvqa_adversarial.jsonl"
+        }
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function doc_to_visual at 0x74badbb8c5e0>",
+      "doc_to_text": "<function pope_doc_to_text at 0x74badbb8d120>",
+      "doc_to_target": "answer",
+      "stateful": false,
+      "process_results": "<function pope_process_results at 0x74badbb8dc60>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "pope_accuracy",
+          "aggregation": "<function pope_accuracy at 0x74badbb8e840>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_precision",
+          "aggregation": "<function pope_precision at 0x74badbb8f380>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_recall",
+          "aggregation": "<function pope_recall at 0x74badbb8fec0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_f1_score",
+          "aggregation": "<function pope_f1 at 0x74badbbaca40>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_yes_ratio",
+          "aggregation": "<function pope_yes_ratio at 0x74badbbad580>"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0,
+        "source": "VCD d6568ff81b8fd306a49e630df44f2db5c2300191 experiments/data/POPE/aokvqa/aokvqa_pope_adversarial.json"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer the question using a single word or phrase."
+        },
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer the question using a single word or phrase."
+      },
+      "auto_strip_thinking": false
+    },
+    "pope_aokvqa_popular": {
+      "task": "pope_aokvqa_popular",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/mnt/data2/minhochung/lmms_eval_work/selfaug_tasks/pope_aokvqa_popular.jsonl"
+        }
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function doc_to_visual at 0x74badbb71080>",
+      "doc_to_text": "<function pope_doc_to_text at 0x74badbbae3e0>",
+      "doc_to_target": "answer",
+      "stateful": false,
+      "process_results": "<function pope_process_results at 0x74badbbaef20>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "pope_accuracy",
+          "aggregation": "<function pope_accuracy at 0x74badbbafb00>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_precision",
+          "aggregation": "<function pope_precision at 0x74badbbc4680>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_recall",
+          "aggregation": "<function pope_recall at 0x74badbbc51c0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_f1_score",
+          "aggregation": "<function pope_f1 at 0x74badbbc5d00>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_yes_ratio",
+          "aggregation": "<function pope_yes_ratio at 0x74badbbc6840>"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0,
+        "source": "VCD d6568ff81b8fd306a49e630df44f2db5c2300191 experiments/data/POPE/aokvqa/aokvqa_pope_popular.json"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer the question using a single word or phrase."
+        },
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer the question using a single word or phrase."
+      },
+      "auto_strip_thinking": false
+    },
+    "pope_aokvqa_random": {
+      "task": "pope_aokvqa_random",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/mnt/data2/minhochung/lmms_eval_work/selfaug_tasks/pope_aokvqa_random.jsonl"
+        }
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function doc_to_visual at 0x74badbbc71a0>",
+      "doc_to_text": "<function pope_doc_to_text at 0x74badbbc7d80>",
+      "doc_to_target": "answer",
+      "stateful": false,
+      "process_results": "<function pope_process_results at 0x74badbbd8900>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "pope_accuracy",
+          "aggregation": "<function pope_accuracy at 0x74badbbd94e0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_precision",
+          "aggregation": "<function pope_precision at 0x74badbbda020>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_recall",
+          "aggregation": "<function pope_recall at 0x74badbbdab60>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_f1_score",
+          "aggregation": "<function pope_f1 at 0x74badbbdb6a0>",
+          "higher_is_better": true
+        },
+        {
+          "metric": "pope_yes_ratio",
+          "aggregation": "<function pope_yes_ratio at 0x74badbbe0220>"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "score_key": "score",
+      "metadata": {
+        "version": 0.0,
+        "source": "VCD d6568ff81b8fd306a49e630df44f2db5c2300191 experiments/data/POPE/aokvqa/aokvqa_pope_random.json"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer the question using a single word or phrase."
+        },
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer the question using a single word or phrase."
+      },
+      "auto_strip_thinking": false
+    }
+  },
+  "versions": {
+    "llava_in_the_wild": 0.0,
+    "mmbench_en_dev_static": "Yaml",
+    "mme": "Yaml",
+    "mmhal_bench": 0.0,
+    "mmvet": 0.0,
+    "mmvp": 0.1,
+    "pope_aokvqa_adversarial": 0.0,
+    "pope_aokvqa_popular": 0.0,
+    "pope_aokvqa_random": 0.0
+  },
+  "n-shot": {
+    "llava_in_the_wild": 0,
+    "mmbench_en_dev_static": 0,
+    "mme": 0,
+    "mmhal_bench": 0,
+    "mmvet": 0,
+    "mmvp": 0,
+    "pope_aokvqa_adversarial": 0,
+    "pope_aokvqa_popular": 0,
+    "pope_aokvqa_random": 0
+  },
+  "higher_is_better": {
+    "llava_in_the_wild": {
+      "gpt_eval_llava_all": true,
+      "gpt_eval_llava_conv": true,
+      "gpt_eval_llava_detail": true,
+      "gpt_eval_llava_complex": true
+    },
+    "mmbench_en_dev_static": {
+      "gpt_eval_score": true,
+      "submission": true
+    },
+    "mme": {
+      "mme_perception_score": true,
+      "mme_cognition_score": true
+    },
+    "mmhal_bench": {
+      "mmhal_score": true,
+      "mmhal_hallucination_rate": false,
+      "mmhal_judge_failures": false
+    },
+    "mmvet": {
+      "gpt_eval_score": true
+    },
+    "mmvp": {
+      "mmvp_accuracy": true,
+      "mmvp_pair_accuracy": true
+    },
+    "pope_aokvqa_adversarial": {
+      "pope_accuracy": true,
+      "pope_precision": true,
+      "pope_recall": true,
+      "pope_f1_score": true,
+      "pope_yes_ratio": null
+    },
+    "pope_aokvqa_popular": {
+      "pope_accuracy": true,
+      "pope_precision": true,
+      "pope_recall": true,
+      "pope_f1_score": true,
+      "pope_yes_ratio": null
+    },
+    "pope_aokvqa_random": {
+      "pope_accuracy": true,
+      "pope_precision": true,
+      "pope_recall": true,
+      "pope_f1_score": true,
+      "pope_yes_ratio": null
+    }
+  },
+  "n-samples": {
+    "pope_aokvqa_random": {
+      "original": 3000,
+      "effective": 4
+    },
+    "pope_aokvqa_popular": {
+      "original": 3000,
+      "effective": 4
+    },
+    "pope_aokvqa_adversarial": {
+      "original": 3000,
+      "effective": 4
+    },
+    "mmvp": {
+      "original": 300,
+      "effective": 4
+    },
+    "mmvet": {
+      "original": 218,
+      "effective": 4
+    },
+    "mmhal_bench": {
+      "original": 96,
+      "effective": 4
+    },
+    "mme": {
+      "original": 2374,
+      "effective": 4
+    },
+    "mmbench_en_dev_static": {
+      "original": 4329,
+      "effective": 4
+    },
+    "llava_in_the_wild": {
+      "original": 60,
+      "effective": 4
+    }
+  },
+  "config": {
+    "model": "qwen2_5_vl",
+    "model_args": "pretrained=/mnt/data1/eunwooim/lmms_eval_work/hf/models/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5,min_pixels=3136,max_pixels=802816",
+    "model_backend": "lmms_eval.models.simple.qwen2_5_vl.Qwen2_5_VL (simple)",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": "lmms_eval_out_quick/base/selfaug/cache",
+    "limit": 4.0,
+    "offset": 0,
+    "bootstrap_iters": 100000,
+    "process_docs_parallel": 4,
+    "gen_kwargs": {
+      "temperature": 0
+    },
+    "random_seed": 0,
+    "numpy_seed": 0,
+    "torch_seed": 0,
+    "fewshot_seed": 0,
+    "resolved_cli_args": {
+      "config": "",
+      "model": "qwen2_5_vl",
+      "tasks": "mmvp,mmbench_en_dev_static,mme,pope_aokvqa_random,pope_aokvqa_popular,pope_aokvqa_adversarial,llava_in_the_wild,mmvet,mmhal_bench",
+      "model_args": "pretrained=/mnt/data1/eunwooim/lmms_eval_work/hf/models/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5,min_pixels=3136,max_pixels=802816",
+      "launcher_args": null,
+      "num_fewshot": null,
+      "batch_size": "1",
+      "max_batch_size": null,
+      "device": null,
+      "output_path": "lmms_eval_out_quick/base/selfaug",
+      "limit": 4.0,
+      "offset": 0,
+      "use_cache": "lmms_eval_out_quick/base/selfaug/cache",
+      "cache_requests": null,
+      "fail_on_error": false,
+      "check_integrity": false,
+      "write_out": false,
+      "log_samples": true,
+      "wandb_log_samples": false,
+      "swanlab_log_samples": false,
+      "log_samples_suffix": "model_outputs",
+      "system_instruction": null,
+      "apply_chat_template": false,
+      "fewshot_as_multiturn": false,
+      "show_config": false,
+      "include_path": "/mnt/data2/minhochung/lmms_eval_work/selfaug_tasks",
+      "gen_kwargs": "temperature=0",
+      "reasoning_tags": "[[\"<think>\", \"</think>\"], [\"<analysis>\", \"</analysis>\"]]",
+      "verbosity": "INFO",
+      "wandb_args": "",
+      "swanlab_args": "",
+      "timezone": "Asia/Singapore",
+      "hf_hub_log_args": ",output_path=lmms_eval_out_quick/base/selfaug,token=[REDACTED]",
+      "predict_only": false,
+      "seed": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "trust_remote_code": false,
+      "process_with_media": false,
+      "process_docs_parallel": 4,
+      "agentic_trace_mode": "basic",
+      "force_simple": true,
+      "tui": false,
+      "repeats": 1,
+      "baseline": null,
+      "max_tokens": null,
+      "power_analysis": false,
+      "effect_size": 0.03,
+      "alpha": 0.05,
+      "power": 0.8,
+      "correlation": 0.5,
+      "std_a": null,
+      "std_b": null
+    }
+  },
+  "git_hash": null,
+  "git_branch": null,
+  "lmms_eval_version": "unknown@unknown",
+  "date": "20261103_014106",
+  "usage": {
+    "total": {
+      "input_tokens": 34427,
+      "output_tokens": 4584,
+      "reasoning_tokens": 0,
+      "total_tokens": 39011,
+      "n_api_calls": 36
+    },
+    "by_task": {
+      "mmvet": {
+        "input_tokens": 31568,
+        "output_tokens": 3822,
+        "reasoning_tokens": 0,
+        "total_tokens": 35390,
+        "n_api_calls": 32
+      },
+      "llava_in_the_wild": {
+        "input_tokens": 2859,
+        "output_tokens": 762,
+        "reasoning_tokens": 0,
+        "total_tokens": 3621,
+        "n_api_calls": 4
+      }
+    },
+    "by_source": {
+      "judge": {
+        "input_tokens": 34427,
+        "output_tokens": 4584,
+        "reasoning_tokens": 0,
+        "total_tokens": 39011,
+        "n_api_calls": 36
+      }
+    },
+    "budget_exceeded": false,
+    "budget_total_tokens": null
+  },
+  "efficiency": {
+    "by_task": {
+      "pope_aokvqa_random": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 3.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": 0.0
+      },
+      "pope_aokvqa_popular": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 3.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": 0.0
+      },
+      "pope_aokvqa_adversarial": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 4.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": 0.0
+      },
+      "mmvp": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "mmvet": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "mmhal_bench": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "mme": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 3.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": 0.0
+      },
+      "mmbench_en_dev_static": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      },
+      "llava_in_the_wild": {
+        "docs": 4.0,
+        "docs_with_token_counts": 0.0,
+        "total_input_tokens": 0.0,
+        "total_output_tokens": 0.0,
+        "total_tokens": 0.0,
+        "total_correct_score": 0.0,
+        "avg_output_tokens_per_sample": 0.0,
+        "tokens_per_correct_answer": null
+      }
+    },
+    "overall": {
+      "docs": 36.0,
+      "docs_with_token_counts": 0.0,
+      "total_input_tokens": 0.0,
+      "total_output_tokens": 0.0,
+      "total_tokens": 0.0,
+      "total_correct_score": 13.0,
+      "avg_output_tokens_per_sample": 0.0,
+      "tokens_per_correct_answer": 0.0
+    }
+  },
+  "task_hashes": {
+    "pope_aokvqa_random": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d",
+    "pope_aokvqa_popular": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d",
+    "pope_aokvqa_adversarial": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d",
+    "mmvp": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d",
+    "mmvet": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d",
+    "mmhal_bench": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d",
+    "mme": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d",
+    "mmbench_en_dev_static": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d",
+    "llava_in_the_wild": "b188f54257d41857f2b4d469ad6567b71552fed6f4748da0f9275fd5a2864e1d"
+  },
+  "model_source": "qwen2_5_vl",
+  "model_name": "/mnt/data1/eunwooim/lmms_eval_work/hf/models/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+  "model_name_sanitized": "snapshots__cc594898137f460bfe9f0759e9844b3ce807cfb5",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 3362708.867835694,
+  "end_time": 3362893.256118312,
+  "total_evaluation_time_seconds": "184.38828261801973"
+}
